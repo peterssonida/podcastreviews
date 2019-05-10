@@ -3,24 +3,37 @@
     <head>
         <meta charset="utf-8">
         <title>Poddklubben</title>
-        <link rel="stylesheet" href="assets\css\style.css">
-        <script src="assets\js\javan.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- SEPARAT CSSFIL FÖR SIDONAVIGERINGEN AV GENRES! -->
+        <link rel="stylesheet" href="..\css\sideNav.css">
+        <script src="../java/java.js"></script>
     </head>
 <body>
     <! Header >
     <div class="header">
       <h1> Poddklubben</h1>  
-      <h2> Ett forum för dig som älskar podcasts </h2>
+      <h2> Veckans podcasts </h2>
     </div>
-      <! NavigationTop på hemsidan >
+      <! TOPPNavigation på hemsidan >
     <div class="topnav">
-        <a class="active" href="index.html">Hem</a>
-        <a href="assets\tabs\om.html">Om</a>
-        <a href="assets\tabs\podcasts.html">Podcasts</a>
+        <a href="../../index.html">Hem</a>
+        <a href="om.html">Om</a>
+        <a class="active" href="podcasts.html">Podcasts</a>
     </div>
-   
 
-    
+<! NavigationLeftSide på hemsidan för de olika genrena>
+<div class="sidebar">
+    <a href="action.html">Action</a>
+    <a href="sos.html">Sex & samlevnad</a>
+    <a class="active"  href="fantasy.html">Fantasy</a>
+    <a href="sci.html">SCI-FI</a>
+  </div>
+
+  <div class="content">
+    <h2>Fantasy</h2>
+    <p> Här kommer vi sedan lägga in våra api:er och php! </p>    
+
+  </div>
 <! Footer >
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -49,4 +62,5 @@
  
     </body>
 </html>
+
 
