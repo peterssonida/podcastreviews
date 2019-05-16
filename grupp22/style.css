@@ -1,0 +1,94 @@
+head {
+
+}
+
+body {
+background-color: #000000;
+max-height:100%;
+max-width:100%;
+}
+
+.content {
+margin-left:15%;
+margin-right:30%;
+background-image: linear-gradient(#666,#000);
+width: 61%;
+padding: 2%;
+height:100%;
+}
+
+.entry {
+  background-color: transparent;
+  width: 25%;
+  height: 25%;
+  padding: 2%;
+}
+.navbar {
+  position: fixed;
+  background-color: transparent;
+  max-height: 10%;
+  width: 100%;
+  left:0px;
+  right:0px;
+  bottom: 0px;
+}
+.left-widget {
+  position: fixed;
+  left: 0px;
+  top:0px;
+  margin-right:85%;
+  background-color: #000;
+  width: 15%;
+  padding: 2%;
+}
+.right-widget {
+  position: fixed;
+  right: 0px;
+  top:0px;
+  margin-left:85%;
+  background-color: #000;
+  width: 15%;
+  padding: 2%;
+}
+.profile {}
+
+#menu1 {
+  background-color: transparent;
+}
+#menu2 {
+  background-color: transparent;
+}
+#menu3 {
+  background-color: transparent;
+}
+
+#profile-img {}
+#profile-info {}
+
+h3 {
+  color: #fff;
+  font-family: verdana;
+}
+
+
+  @media all and (max-device-width: 320px)
+  {
+
+  }
+
+  @media all and (max-device-width: 480px)
+  {
+
+  }
+  @media all and (max-device-width: 760px)
+  {
+
+  }
+  @media all and (max-device-width: 960px)
+  {
+
+  }
+  @media all and (max-device-width: 1200px)
+  {
+
+  }
