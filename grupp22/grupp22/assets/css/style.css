@@ -1,0 +1,137 @@
+/*STIL FÖR HEADER*/
+.header {
+/*GÅR INTE ATT KÖRA URL LOKALT AV NGN ANLEDNING...*/
+ background: url(http://www.twitrcovers.com/wp-content/uploads/2012/11/Books-l.jpg) no-repeat ;
+ background-size: cover;
+ height: 100%;
+ overflow: hidden;
+
+padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+/*SLUT HEADERSTIL*/
+
+
+
+/* STIL FÖR BODY*/
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+
+
+/* STIL FÖR NAVIGATION */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+/*STIL FÖR FOOTER*/
+
+/*BAKGRUNDSFÄRG OCH PADDING*/
+.ct-footer-post {
+      position: absolute;
+
+    background: #000;
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4rem;
+
+
+}
+
+/*DENNA GÖR ATT FOOTERN BLIR FETARE I RELATION TILL TEXTEN*/
+/*.ct-footer-post .inner-left,
+.ct-footer-post .inner-right {
+    padding: 20px 0
+}*/
+
+/*STILEN FÖR UL (UnorderedList) och som gör att avståndet från kanterna av hemsidan allt är lika långa för båda texterna (Kontakta oss, copyright...)*/
+.ct-footer-post ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 -20px;
+}
+
+/*FLYTTAR VÅR VÄNSTRA TEXT SÅ DEN ALLTID ÄR 20PX från vänsterkant*/
+.ct-footer-post ul li {
+    display: inline-block;
+    margin: 0 20px
+}
+
+/*Design och färg för våra texter (kontakta oss och facebook. ALltså länkarna!!)*/
+.ct-footer-post a {
+    color: #fff;
+}
+
+/* Skapar en underline när mus hovrar över länken (facebook och och kontakta oss) kanske ta bort, verkar inte göra nå skillnad?*/ 
+.ct-footer-post a:hover {
+    text-decoration: underline
+}
+
+/*Stil för våran text som inte är en länk, alltså copyrigt etc*/
+.ct-footer-post p {
+    color: #fff;
+}
+
+/*Dessa funktionr @media ser till så att footern håller sig responsiv. Alltså att sidan ändras om man gör om storleken, eller använder telefon)
+min with gör att man inte kan göra hemsidan hur liten som helst!*/
+@media (min-width:768px) {
+    .ct-footer-post p {
+        display: inline-block
+    }
+    .ct-footer-post p + p {
+        padding-left: 50px
+    }
+}
+
+/*Stilen för att hålla hela footern responsiv!*/
+@media (min-width:992px) {
+    .ct-footer-post .inner-left {
+        float: left
+    }
+    .ct-footer-post .inner-right {
+        float: right
+    }
+}
+/*Denna media gör att när vi drar ihop storleken för browsern så kommer texten hållas centrerad!*/
+@media (max-width:991px) {
+    .ct-footer-post {
+        text-align: center
+    }
+}
